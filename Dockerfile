@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:python-3.11.2
+FROM jupyter/base-notebook:python-3.11
 
 WORKDIR /home/jovyan/work
 
