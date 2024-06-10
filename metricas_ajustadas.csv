@@ -1,0 +1,3 @@
+Algoritmo,Acurácia,Precisão,Recall,F1-score,Parametros
+KNN,0.8357489973049254,0.8371814715002077,0.8342411854757298,0.8349161793613715,"{'n_neighbors': 20, 'metric': 'manhattan', 'weights': 'distance'}"
+Decision Tree,0.9181291513698194,0.918378691103299,0.9176297431867516,0.9179286743660648,"{'max_depth': 20, 'criterion': 'entropy', 'min_samples_split': 8, 'min_samples_leaf': 11}"
