@@ -1,6 +1,6 @@
 Algoritmo,Acurácia,Precisão,Recall,F1-score,Parametros
 KNN,0.7633051731108889,0.7631606028158515,0.7635905445144573,0.7631633397915136,"{'n_neighbors': 13, 'metric': 'euclidean', 'weights': 'uniform'}"
-Decision Tree,0.9458217181282319,0.9461671368718518,0.9453581301863359,0.945685079980058,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_split': 2, 'min_samples_leaf': 1}"
-Rede Neural (MLP),0.9136892728704276,0.9134517049135,0.9140147074654026,0.9136131474464622,"{'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'max_iter': 200, 'batch_size': 32}"
+Decision Tree,0.9455876407124465,0.9459336133955216,0.945122779242197,0.9454502954567379,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_split': 2, 'min_samples_leaf': 1}"
+Rede Neural (MLP),0.9189666546081331,0.9188887804133994,0.9187504026797428,0.9188162037118193,"{'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'max_iter': 200, 'batch_size': 32}"
 Regressão Logística,0.7354286808673632,0.7428432935550633,0.7312512366157691,0.730763292957261,"{'solver': 'lbfgs', 'penalty': 'l2', 'max_iter': 100}"
-Random Forest,0.9582916604600685,0.958919274053093,0.9577159335477681,0.9581724271378029,"{'n_estimators': 100, 'criterion': 'entropy'}"
+Random Forest,0.9582278211648544,0.9588704910995587,0.9576440948466083,0.9581075446251069,"{'n_estimators': 100, 'criterion': 'entropy'}"
