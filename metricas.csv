@@ -1,6 +1,6 @@
 Algoritmo,Acurácia,Precisão,Recall,F1-score,Parametros
-KNN,0.7633051731108889,0.7631606028158515,0.7635905445144573,0.7631633397915136,"{'n_neighbors': 13, 'metric': 'euclidean', 'weights': 'uniform'}"
-Decision Tree,0.9456514800076607,0.9459963004552949,0.9451876035366618,0.9455144125173088,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_split': 2, 'min_samples_leaf': 1}"
-Rede Neural (MLP),0.9162428446789948,0.9161358857853961,0.9160517875134089,0.9160925291480992,"{'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'max_iter': 200, 'batch_size': 32}"
-Regressão Logística,0.7354286808673632,0.7428432935550633,0.7312512366157691,0.730763292957261,"{'solver': 'lbfgs', 'penalty': 'l2', 'max_iter': 100}"
-Random Forest,0.9584618985806397,0.959114177487937,0.957874184985726,0.95834181919433,"{'n_estimators': 100, 'criterion': 'entropy'}"
+KNN,0.8442108399123274,0.8451428002247504,0.8429463699619808,0.8435413547599444,"{'n_neighbors': 40, 'metric': 'manhattan', 'weights': 'uniform'}"
+Decision Tree,0.9453748430617326,0.9458658783800864,0.944821940846416,0.9452249850660125,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_split': 8, 'min_samples_leaf': 5}"
+Rede Neural (MLP),0.9197752856808461,0.9203371897970046,0.9190764102037373,0.919533682721174,"{'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'max_iter': 200, 'batch_size': 32}"
+Regressão Logística,0.7354925201625774,0.7437598429677065,0.7311301791328151,0.7304985321629613,"{'solver': 'lbfgs', 'penalty': 'l2', 'max_iter': 100}"
+Random Forest,0.9585682974059966,0.9592716829877823,0.9579553369175029,0.9584457482103365,"{'n_estimators': 100, 'criterion': 'entropy'}"
