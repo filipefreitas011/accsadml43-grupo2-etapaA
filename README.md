@@ -3,7 +3,7 @@ O seguinte repositório é referente a Etapa 1 (Pergunta a responder:  Este indi
 
 Para os cenários 1 e 2, o pré-processamento foi livre, mas os algoritmos foram descritos com hiperparâmetros fixos. No cenário 2, foi solicitado que fossem encontrados os melhores hiperparâmetros que se adaptassem à base de dados com o pré-processamento realizado.
 
-As descrições de cada etapa estão presentes no próprio código.
+**As descrições de cada etapa estão presentes no próprio código.**
 
 ## Grupo
 
