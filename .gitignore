@@ -1,3 +1,10 @@
 .ipynb_checkpoints
 dengue_sinan.csv
 dengue_sinan.parquet
+dataset1_teste.csv
+dataset2_teste.csv
+X_cv.csv
+X_train.csv
+y_cv.csv
+y_train.csv
+rfc_model.pkl
