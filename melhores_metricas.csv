@@ -1,0 +1,6 @@
+index,Algoritmo,Acurácia,Precisão,Recall,F1-score,Parametros
+4,KNN,0.861702806801013,0.8628073612979497,0.8604539544026188,0.8611022614743424,"{'n_neighbors': 24, 'metric': 'cityblock', 'weights': 'distance'}"
+15,Decision Tree,0.9502904687932244,0.950750590558422,0.9497748322833768,0.95015774314874,"{'max_depth': 26, 'criterion': 'log_loss', 'min_samples_split': 94, 'min_samples_leaf': 5}"
+26,Rede Neural (MLP),0.9263932926180496,0.9269088488537738,0.9257485969508306,0.9261800007061248,"{'hidden_layer_sizes': (200, 200, 200), 'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate_init': 0.009, 'max_iter': 675, 'batch_size': 5}"
+41,Regressão Logística,0.7360457940544336,0.7444109355067268,0.7316703619308662,0.7310368178064139,"{'solver': 'saga', 'penalty': None, 'max_iter': 500}"
+8,Random Forest,0.9589513331772818,0.959617877291464,0.9583583114976812,0.9588320073671506,"{'n_estimators': 450, 'criterion': 'gini'}"
